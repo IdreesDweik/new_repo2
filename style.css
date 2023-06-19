@@ -1,0 +1,29 @@
+/*html{
+    box-sizing: border-box;
+}*/
+
+body{
+    background: white;
+    color: black;
+}
+
+.scale{
+    width: 500px;
+    height: 50px;
+    background: chartreuse;
+}
+.content-box {
+    box-sizing: content-box;
+    width: 500px;
+    padding: 25px;
+    border: 5px solid rebeccapurple;
+    background: aquamarine;
+}
+
+.border-box {
+    box-sizing: border-box;
+    width: 500px;
+    padding: 25px;
+    border: 5px solid rebeccapurple;
+    background: aquamarine;
+}
